@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: gitops-container
-        image: imrazza/gitops-demo:v2
+        image: imrazza/gitops-demo:v3
         ports:
         - containerPort: 5000
