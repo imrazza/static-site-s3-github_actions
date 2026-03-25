@@ -1,0 +1,14 @@
+{
+  "title": "Observability Dashboard",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Request Count",
+      "targets": [
+        {
+          "expr": "request_count"
+        }
+      ]
+    }
+  ]
+}
